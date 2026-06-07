@@ -3,6 +3,13 @@
 def saludar(nombre, nacionalidad = "Colombia"): # Argumentos
     print("Hola", nombre, "de", nacionalidad)
 
-saludar("Pedro", "España") # Parámetros
-saludar("María") # Parámetro
-saludar("Ana")
+# saludar("Pedro", "España") # Parámetros
+# saludar("María") # Parámetro
+# saludar("Ana")
+
+def sumar(a,b):
+    return a + b
+
+
+resultado = sumar(2,3)
+print(resultado)
