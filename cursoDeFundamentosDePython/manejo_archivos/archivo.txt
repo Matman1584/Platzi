@@ -1,0 +1,4 @@
+Primera linea
+Mensaje agregado usando append (no borra, agrega)Primera linea
+Mensaje agregado usando append (no borra, agrega)Primera linea
+Mensaje agregado usando append (no borra, agrega)
