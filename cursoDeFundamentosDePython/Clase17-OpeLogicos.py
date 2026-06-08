@@ -20,5 +20,7 @@ x > y or y > z # Si al menos una es verdadera = True
 # NEGACION
 v = True
 f = False
-print(not(v))
-print(not(f))
+print(not(v)) # Si True se invierte a False
+print(not(f)) # Si False se invierte a True
+
+
