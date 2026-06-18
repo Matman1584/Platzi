@@ -1,4 +1,4 @@
-
+ARCHIVO_PEDIDOS = "pedidos.txt"
 
 def pedir_cafe():
     print("\n Elige el caffe que prefieras: ")
@@ -39,6 +39,7 @@ def pedir_cafe():
         print("Tu " + cafe_elegido + "Llegará a tu mesa en 5min")
 
         # Guardamos el café dentro de un archivo para luego tener el historial de los pedidos
-        with open("pedidos.txt", )      # Usamos with para abrir el archivo
+        with open(ARCHIVO_PEDIDOS, "a", encoding = "utf-8") as archivo:    # Usamos with para abrir el archivo
+            archivo.write(cafe_elegido + "\n")  # El salto de linea es para que cada cafe elegido quede en una linea aparte dentro de un docuemnto llamando pedidos.txt
     else:
         print("La opción no es valida, por favor intenta de nuevo")
