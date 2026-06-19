@@ -22,7 +22,7 @@ def pedir_cafe():
         "1": "Espresso",
         "2": "Cappuchino",
         "3": "Latte",
-        "4": "Americano",
+        "4": "Café Americano",
         "5": "Café con Hielo",
         "6": "Mocha",
         "7": "Affogato",
@@ -36,7 +36,7 @@ def pedir_cafe():
 
     if opcion in cafes:
         cafe_elegido = cafes[opcion]
-        print("Tu " + cafe_elegido + "Llegará a tu mesa en 5min")
+        print("Tu " + cafe_elegido + " llegará a tu mesa en 5min")
 
         # Guardamos el café dentro de un archivo para luego tener el historial de los pedidos
         with open(ARCHIVO_PEDIDOS, "a", encoding = "utf-8") as archivo:    # Usamos with para abrir el archivo
